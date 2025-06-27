@@ -1,0 +1,263 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* header section styles */
+
+header{
+  background-color: rgb(29, 91, 111);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  max-height:180px;
+  margin-bottom: auto;
+  margin-bottom: clamp(20px, 5vh, 45px);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+
+.header-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header img{
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+header div h5{
+margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.company-name{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-components{
+display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-icon{
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  margin-left: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  flex: 1;
+}
+
+#navbar a {
+  text-decoration: none;
+  color:white;
+}
+
+.logo1{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.logo2{
+display: flex;
+flex-direction: column;
+  align-items: end;
+}
+
+/* date styles */
+
+#date {
+  font-size: 14px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+/* clock styles */
+
+#clock {
+  font-size: 14px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: right;
+}
+
+/* SIDE BAR STYLES */
+aside{
+  width: 15vw;
+  min-width: 150px;
+  height: 100vh;
+  position: fixed;
+  padding-top: 173px;
+  background-color: rgb(29, 91, 111);
+}
+
+aside ul{
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  }
+
+aside li{
+text-decoration: none;
+padding: 5px 10px;
+margin: 5px 10px;
+}
+
+aside a{
+text-decoration: none;
+color: white;
+padding: 5px 10px;
+margin: 5px 0px;
+border: 1px solid white;
+border-radius: 5px
+}
+
+
+
+/* MAIN SECTION STYLES */
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 83vw;
+  margin-left: 14vw;
+  height: 100%;
+  margin-top: 200px;
+  background-color: #f4f4f4;
+  padding-left: 20px;
+  /* color: rgb(64, 128, 128); */
+  /* color: rgb(102, 153, 153); */
+  /* color: rgb(255, 127, 80); */
+  color:#222222;
+}
+
+
+/* Home section styles */
+
+
+#Home{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  padding: 20px 0;
+  margin: 50px 0;
+  height: auto;
+  scroll-margin-top: 200px;
+}
+
+
+/* About section styles */
+
+
+#About{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  height: auto;
+  padding: 20px 0;
+  margin: 50px 0;
+  scroll-margin-top: 200px;
+}
+
+
+/* Services section styles */
+
+
+#Services{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  height: auto;
+  padding: 20px 0;
+  margin: 50px 0;
+  scroll-margin-top: 200px;
+}
+
+#Services ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+#Services li{
+  width: 40vw;
+  max-width: 450px;
+  height: 5vh;
+  margin: 5px 10px;
+  padding: 5px;
+  text-align: center;
+  color: rgb(242, 238, 238);
+  background-color: #1f93a2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+/* Contact section styles */
+
+
+#Contact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  border: 1px solid black;
+  height: auto;
+  padding: 20px 0;
+  margin: 50px 0;
+  scroll-margin-top: 200px;
+}
+/* footer section styles */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 90px;
+  margin-top: auto;
+}
